@@ -1,12 +1,18 @@
 const $ = require('jquery');
+const hello = require('./say-hello.js')
 const sayHello = name => console.log('Hello!');
 
 sayHello();
 
-alert('hey')
+// alert('hey')
 
 $('#npmHead').click(e => alert('clicked!'))
 
-$('body').html('<h1><em>Fingers Crossed!</em></h1>');
 
+$('#npmHead').html('<h1><em>Fingers Crossed!</em></h1>');
+
+$('#npmLorem').html(hello)
+
+
+// console.log(helloMessage())
 // alert('end of script');
