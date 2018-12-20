@@ -9,4 +9,4 @@ $('#npmHead').click(e => alert('clicked!'))
 
 $('body').html('<h1><em>Fingers Crossed!</em></h1>');
 
-alert('end of script');
+// alert('end of script');
